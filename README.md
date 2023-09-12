@@ -1,7 +1,7 @@
 # Leetcode-Problem-Sloving-Sloutions-
 #30 days challenge to slove atleast one leetcode problem every day.<br>
 <b>#Day 1: 12/09/2023<br><b>
-<b>Problem Statement:<b><br>
+<b>Problem Statement:</b><br>
 Given an integer n, return the number of trailing zeroes in n!.<br>
 <B>Solution:<b><br>
 First we willunderstand term trailing zeroes <br>
@@ -14,7 +14,7 @@ Input: n = 20<br>
 Output: 4<br>
 Factorial of 20 is 2432902008176640000 which has<br>
 4 trailing zeroes.<br>
-<b>Code<b>
+<b>Code</b>
 
 
 
