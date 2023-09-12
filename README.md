@@ -31,7 +31,6 @@ int countTrailingZeroes(int n)<br>
     }<br>
     return count;<br>
 }<br>
- 
 int main()<br>
 {
     int n,x ;<br>
