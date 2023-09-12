@@ -42,7 +42,8 @@ int main()<br>
     cin>>x;<br>
 } while(x==1);<br>
     return 0;<br>
-}
+}<br>
+To understand with example please check image uploaded.
 
 
 
