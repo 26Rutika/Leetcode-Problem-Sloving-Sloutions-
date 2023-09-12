@@ -16,31 +16,34 @@ Factorial of 20 is 2432902008176640000 which has<br>
 4 trailing zeroes.<br>
 <b>Code</b>
 code:
-#include <iostream>
-using namespace std;
-int countTrailingZeroes(int n)
-{ int count = 0;
-for (int i = 1; i <= n; i++) {
-int j = i;
-while (j % 5 == 0) {
-count++;
-j /= 5;
-}
-}
-return count;
-}
-
-int main()
-{ int n,x ;
-do
+#include &lt;iostream&gt;<br>
+using namespace std;<br>
+ 
+int countTrailingZeroes(int n)<br>
 {
-cout<<"\nEnter the value of n";
-cin>>n;
-cout << countTrailingZeroes(n) << endl;
-cout<<"\nTo continue type 1";
-cin>>x;
-} while(x==1);
-return 0;
+    int count = 0;<br>
+    for (int i = 1; i <= n; i++) {<br>
+        int j = i;<br>
+        while (j % 5 == 0) {<br>
+            count++;<br>
+            j /= 5;<br>
+        }<br>
+    }<br>
+    return count;<br>
+}<br>
+ 
+int main()<br>
+{
+    int n,x ;<br>
+    do<br>
+    {<br>
+    cout<<"\nEnter the value of n";<br>
+    cin>>n;<br>
+    cout << countTrailingZeroes(n) << endl;<br>
+    cout<<"\nTo continue type 1";<br>
+    cin>>x;<br>
+} while(x==1);<br>
+    return 0;<br>
 }
 
 
