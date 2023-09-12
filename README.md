@@ -14,8 +14,7 @@ Input: n = 20<br>
 Output: 4<br>
 Factorial of 20 is 2432902008176640000 which has<br>
 4 trailing zeroes.<br>
-<b>Code</b>
-code:
+<b>Code</b><br>
 #include &lt;iostream&gt;<br>
 using namespace std;<br>
  
