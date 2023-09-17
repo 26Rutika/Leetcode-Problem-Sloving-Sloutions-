@@ -1,6 +1,4 @@
 # Leetcode-Problem-Sloving-Sloutions-
-#30 days challenge to slove atleast one leetcode problem every day.<br>
-<b>#Day 1: 12/09/2023<br><b>
 <b>Problem Statement:</b><br>
 Given an integer n, return the number of trailing zeroes in n!.<br>
 <B>Solution:<b><br>
